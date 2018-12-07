@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="58" column="125" selection-start-line="58" selection-start-column="125" selection-end-line="58" selection-end-column="125" />
+            <state relative-caret-position="287">
+              <caret line="70" selection-start-line="70" selection-start-column="2" selection-end-line="73" selection-end-column="22" />
               <folding>
                 <element signature="e#1083#1084#0" expanded="true" />
                 <element signature="e#1112#1113#0" expanded="true" />
@@ -77,7 +77,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544157487331" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544160739831" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -92,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FirstTest.testCancelSearch">
     <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="PACKAGE_NAME" value="" />
@@ -101,8 +101,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstTest.testCancelSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="testCancelSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstTest.testCancelSearch" />
         <item itemvalue="JUnit.FirstTest" />
       </list>
     </recent_temporary>
@@ -121,18 +132,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest - 2018.12.06 at 23h 07m 10s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest - 2018.12.06 at 23h 08m 22s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest - 2018.12.06 at 23h 09m 26s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest - 2018.12.06 at 23h 11m 46s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstTest - 2018.12.06 at 23h 14m 09s.xml">
       <configuration name="FirstTest" configurationId="JUnit" />
     </history-entry>
@@ -150,6 +149,18 @@
     </history-entry>
     <history-entry file="FirstTest - 2018.12.06 at 23h 36m 37s.xml">
       <configuration name="FirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest - 2018.12.06 at 23h 37m 53s.xml">
+      <configuration name="FirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest - 2018.12.06 at 23h 38m 29s.xml">
+      <configuration name="FirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest - 2018.12.06 at 23h 57m 36s.xml">
+      <configuration name="FirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_testCancelSearch - 2018.12.07 at 00h 28m 31s.xml">
+      <configuration name="FirstTest.testCancelSearch" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -194,8 +205,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="58" column="125" selection-start-line="58" selection-start-column="125" selection-end-line="58" selection-end-column="125" />
+        <state relative-caret-position="287">
+          <caret line="70" selection-start-line="70" selection-start-column="2" selection-end-line="73" selection-end-column="22" />
           <folding>
             <element signature="e#1083#1084#0" expanded="true" />
             <element signature="e#1112#1113#0" expanded="true" />
