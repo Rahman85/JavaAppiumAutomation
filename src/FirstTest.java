@@ -3,6 +3,8 @@ import io.appium.java_client.android.AndroidDriver;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.URL;
@@ -34,10 +36,17 @@ public class FirstTest {
     {
         driver.quit();
     }
+
+
     @Test
     public void firstTest()
     {
-        System.out.println("First test run");
+        WebElement element_to_init_search = driver.findElementByXPath("//*[contains(@text,'Search Wikipedia')]");
+        element_to_init_search.click();
+
+        WebElement element_to_enter_search_line = driver.findElementByXPath("//*[contains(@text,'Search…')]");
+        element_to_enter_search_line.sendKeys("New York");
+       // System.out.println("First test run");
     }
 
 }
