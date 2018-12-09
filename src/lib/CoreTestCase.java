@@ -15,7 +15,7 @@ public class CoreTestCase extends TestCase {
 
 
     @Override
-    public void setUp() throws Exception
+    protected void setUp() throws Exception
     {
 
         super.setUp();
@@ -34,7 +34,7 @@ public class CoreTestCase extends TestCase {
     }
 
     @Override
-    public void tearDown() throws Exception
+    protected void tearDown() throws Exception
     {
         driver.quit();
 
