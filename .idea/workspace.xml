@@ -16,13 +16,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="399" column="68" selection-start-line="399" selection-start-column="68" selection-end-line="399" selection-end-column="68" />
+            <state relative-caret-position="405">
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
               <folding>
-                <element signature="e#1083#1084#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
-                <element signature="e#7009#7010#0" expanded="true" />
-                <element signature="e#7034#7035#0" expanded="true" />
+                <element signature="e#15065#15066#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/CoreTestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,6 +53,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/lib/CoreTestCase.java" />
       </list>
     </option>
   </component>
@@ -70,6 +80,12 @@
               <item name="JavaAppiumAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaAppiumAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAppiumAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -79,7 +95,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544314197296" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544319994267" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RunDashboard">
@@ -94,31 +110,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest.testChangeScreenOrientationSearchResult">
+  <component name="RunManager" selected="JUnit.FirstTest">
     <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstTest.testAmountOfEmptySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaAppiumAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="testAmountOfEmptySearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstTest.testAmountOfNotEmptySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaAppiumAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="testAmountOfNotEmptySearch" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,13 +139,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstTest.testGetText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="testGetText" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.testSaveFirstArticleToMyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="testSaveFirstArticleToMyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstTest" />
+        <item itemvalue="JUnit.FirstTest.testGetText" />
+        <item itemvalue="JUnit.FirstTest.testSaveFirstArticleToMyList" />
         <item itemvalue="JUnit.FirstTest.testChangeScreenOrientationSearchResult" />
         <item itemvalue="JUnit.FirstTest.testCheckSearchArticleInBackground" />
-        <item itemvalue="JUnit.FirstTest.testAmountOfEmptySearch" />
-        <item itemvalue="JUnit.FirstTest" />
-        <item itemvalue="JUnit.FirstTest.testAmountOfNotEmptySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -167,47 +183,46 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_saveFirstArticleToMyList - 2018.12.08 at 15h 55m 50s.xml">
-      <configuration name="FirstTest.saveFirstArticleToMyList" configurationId="JUnit" />
+    <history-entry file="FirstTest_getTextTest - 2018.12.08 at 19h 47m 52s.xml">
+      <configuration name="FirstTest.getTextTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_testAmountOfNotEmptySearch - 2018.12.08 at 16h 25m 38s.xml">
-      <configuration name="FirstTest.testAmountOfNotEmptySearch" configurationId="JUnit" />
+    <history-entry file="FirstTest_getTextTest - 2018.12.08 at 20h 00m 39s.xml">
+      <configuration name="FirstTest.getTextTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_testAmountOfNotEmptySearch - 2018.12.08 at 16h 28m 14s.xml">
-      <configuration name="FirstTest.testAmountOfNotEmptySearch" configurationId="JUnit" />
+    <history-entry file="FirstTest_getTextTest - 2018.12.08 at 20h 01m 17s.xml">
+      <configuration name="FirstTest.getTextTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_testAmountOfNotEmptySearch - 2018.12.08 at 16h 28m 47s.xml">
-      <configuration name="FirstTest.testAmountOfNotEmptySearch" configurationId="JUnit" />
+    <history-entry file="FirstTest_getTextTest - 2018.12.08 at 20h 02m 33s.xml">
+      <configuration name="FirstTest.getTextTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest - 2018.12.08 at 16h 36m 06s.xml">
+    <history-entry file="FirstTest_getTextTest - 2018.12.08 at 20h 04m 34s.xml">
+      <configuration name="FirstTest.getTextTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_getTextTest - 2018.12.08 at 20h 05m 54s.xml">
+      <configuration name="FirstTest.getTextTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_getTextTest - 2018.12.08 at 20h 06m 55s.xml">
+      <configuration name="FirstTest.getTextTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_getTextTest - 2018.12.08 at 20h 07m 28s.xml">
+      <configuration name="FirstTest.getTextTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_getTextTest - 2018.12.08 at 20h 19m 08s.xml">
+      <configuration name="FirstTest.getTextTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest - 2018.12.08 at 20h 46m 11s.xml">
       <configuration name="FirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_testAmountOfEmptySearch - 2018.12.08 at 17h 23m 04s.xml">
-      <configuration name="FirstTest.testAmountOfEmptySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_testAmountOfEmptySearch - 2018.12.08 at 17h 23m 59s.xml">
-      <configuration name="FirstTest.testAmountOfEmptySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_testAmountOfEmptySearch - 2018.12.08 at 17h 45m 20s.xml">
-      <configuration name="FirstTest.testAmountOfEmptySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_testChangeScreenOrientationSearchResult - 2018.12.08 at 18h 56m 18s.xml">
-      <configuration name="FirstTest.testChangeScreenOrientationSearchResult" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest_testChangeScreenOrientationSearchResult - 2018.12.08 at 19h 00m 39s.xml">
-      <configuration name="FirstTest.testChangeScreenOrientationSearchResult" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="777" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -215,7 +230,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.329927" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -238,15 +253,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/CoreTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="399" column="68" selection-start-line="399" selection-start-column="68" selection-end-line="399" selection-end-column="68" />
+        <state relative-caret-position="405">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
           <folding>
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#7009#7010#0" expanded="true" />
-            <element signature="e#7034#7035#0" expanded="true" />
+            <element signature="e#15065#15066#0" expanded="true" />
           </folding>
         </state>
       </provider>
