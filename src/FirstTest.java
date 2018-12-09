@@ -1,5 +1,6 @@
 import lib.CoreTestCase;
 import lib.ui.MainPageObjects;
+import lib.ui.SearchPageObject;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -11,37 +12,24 @@ public class FirstTest extends CoreTestCase {
 
     private MainPageObjects MainPageObjects;
 
-    protected void setUp() throws Exception
-    {
+    protected void setUp() throws Exception {
         super.setUp();
         MainPageObjects = new MainPageObjects(driver);
     }
 
 
     @Test
-    public void testSearch()
-    {
+    public void testSearch() {
 
-        MainPageObjects.waitForElementAndClick(
-                By.xpath("//*[contains(@text,'Search Wikipedia')]"),
-                "Cannot find search Wikipedia input",
-                5);
+        SearchPageObject SearchPageObject = new SearchPageObject(driver);
 
-        MainPageObjects.waitForElementAndSendKeys(
-                By.xpath("//*[contains(@text,'Search…')]"),
-                "Java",
-                "Cannot find search input",
-                10);
-
-        MainPageObjects.waitForElementPresent(
-               By.xpath("//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text = 'Object-oriented programming language']"),
-               "Can not find 'Object oriented programming language' topic searching by 'Java'" ,
-               15);
+        SearchPageObject.InitSearchInput();
+        SearchPageObject.typeSearchLine("Java");
+        SearchPageObject.waitforSearchResult("Object-oriented programming language");
     }
 
     @Test
-    public void testGetText()
-    {
+    public void testGetText() {
         MainPageObjects.waitForElementAndClick(
                 By.xpath("//*[contains(@text,'Search Wikipedia')]"),
                 "Cannot find search Wikipedia input",
@@ -59,10 +47,8 @@ public class FirstTest extends CoreTestCase {
                 text);
     }
 
-
     @Test
-    public void testCancelSearch()
-    {
+    public void testCancelSearch() {
         MainPageObjects.waitForElementAndClick(
                 By.id("org.wikipedia:id/search_container"),
                 "Cannot find 'Search Wikipedia' input",
@@ -91,8 +77,7 @@ public class FirstTest extends CoreTestCase {
     }
 
     @Test
-    public void testCompareArticleTitle()
-    {
+    public void testCompareArticleTitle() {
         MainPageObjects.waitForElementAndClick(
                 By.xpath("//*[contains(@text,'Search Wikipedia')]"),
                 "Cannot find search Wikipedia input",
@@ -122,8 +107,7 @@ public class FirstTest extends CoreTestCase {
     }
 
     @Test
-    public void testSwipeArticle()
-    {
+    public void testSwipeArticle() {
         MainPageObjects.waitForElementAndClick(
                 By.xpath("//*[contains(@text,'Search Wikipedia')]"),
                 "Cannot find search Wikipedia input",
@@ -153,8 +137,7 @@ public class FirstTest extends CoreTestCase {
     }
 
     @Test
-    public void testSaveFirstArticleToMyList()
-    {
+    public void testSaveFirstArticleToMyList() {
         MainPageObjects.waitForElementAndClick(
                 By.xpath("//*[contains(@text,'Search Wikipedia')]"),
                 "Cannot find search Wikipedia input",
@@ -246,8 +229,7 @@ public class FirstTest extends CoreTestCase {
     }
 
     @Test
-    public void testAmountOfNotEmptySearch()
-    {
+    public void testAmountOfNotEmptySearch() {
         MainPageObjects.waitForElementAndClick(
                 By.xpath("//*[contains(@text,'Search Wikipedia')]"),
                 "Cannot find search Wikipedia input",
@@ -274,8 +256,7 @@ public class FirstTest extends CoreTestCase {
     }
 
     @Test
-    public void testAmountOfEmptySearch()
-    {
+    public void testAmountOfEmptySearch() {
         MainPageObjects.waitForElementAndClick(
                 By.xpath("//*[contains(@text,'Search Wikipedia')]"),
                 "Cannot find search Wikipedia input",
@@ -302,8 +283,7 @@ public class FirstTest extends CoreTestCase {
     }
 
     @Test
-    public void testChangeScreenOrientationSearchResult()
-    {
+    public void testChangeScreenOrientationSearchResult() {
         MainPageObjects.waitForElementAndClick(
                 By.xpath("//*[contains(@text,'Search Wikipedia')]"),
                 "Cannot find search Wikipedia input",
@@ -354,8 +334,7 @@ public class FirstTest extends CoreTestCase {
     }
 
     @Test
-    public void testCheckSearchArticleInBackground()
-    {
+    public void testCheckSearchArticleInBackground() {
         MainPageObjects.waitForElementAndClick(
                 By.xpath("//*[contains(@text,'Search Wikipedia')]"),
                 "Cannot find search Wikipedia input",
