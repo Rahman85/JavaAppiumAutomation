@@ -30,7 +30,7 @@ public class MainPageObjects {
 
     public WebElement waitForElementPresent(By by, String error_message)
     {
-        return waitForElementPresent(by, error_message, 5);
+        return waitForElementPresent(by, error_message, 25);
     }
 
     public WebElement waitForElementAndClick(By by, String error_message, long timeoutInSeconds)
@@ -109,7 +109,7 @@ public class MainPageObjects {
         WebElement element = waitForElementPresent(
                 by,
                 error_message,
-                20);
+                30);
 
         int left_x = element.getLocation().getX();
         int right_x = left_x + element.getSize().getWidth();
